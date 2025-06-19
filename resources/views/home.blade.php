@@ -165,7 +165,7 @@
                         </div>
                         <div class="featurs-content text-center">
                             <h5>Free Shipping</h5>
-                            <p class="mb-0">Free on order over $300</p>
+                            <p class="mb-0">Free on order over 1000</p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                 </div>
 
                 <div class="row g-4">
-                    @foreach($all_products->take(4) as $product)
+                    @foreach($all_products->take(8) as $product)
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="rounded position-relative fashion-item border border-secondary">
                             <div class="fashion-img">
@@ -277,7 +277,7 @@
         <div class="container py-5">
             <h1 class="mb-0">New Added Clothes</h1>
             <div class="row g-4">
-                @foreach($all_products->skip(4) as $product)
+                @foreach($all_products->skip(8) as $product)
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="border border-primary rounded position-relative vesitable-item">
                         <div class="vesitable-img">

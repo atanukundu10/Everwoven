@@ -94,7 +94,7 @@
                     <tbody>
                         @foreach ($selected_products as $product)
                         <tr>
-                            <td><img src="{{ $product->image }}" height="50px" width="100px" alt="{{ $product->name }}"></td>
+                            <td><img src="{{ $product->image }}" height="130px" width="100px" alt="{{ $product->name }}"></td>
                             <td>{{ $product->name }}</td>
                             <td>₹{{ number_format($product->price, 2) }}</td>
                             <td>{{ $quantities[$product->product_id] ?? 1 }}</td>
